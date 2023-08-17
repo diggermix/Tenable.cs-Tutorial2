@@ -19,7 +19,6 @@ resource "aws_s3_bucket" "mf_ps_workshop_s3_001" {
   }
 }
 
-resource "aws_s3_bucket_versioning" "mf-ps-workshop-s3-001-versioning" {
   versioning_configuration {
     status = "Disabled"
   }
